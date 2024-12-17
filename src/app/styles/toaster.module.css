@@ -1,0 +1,19 @@
+.toasterCustomCss {
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 300px;
+    border-radius: 6px
+  }
+  
+/* 
+  style={{
+    top: '85px',
+    left: '50%', // Center horizontally
+    transform: 'translateX(-50%)', // Adjust to precisely center it
+    width: '100%', // For mobile view, take full width
+    maxWidth: '300px', // Prevents the toast from growing too wide on larger screens
+    // backgroundColor: 'red',
+    borderRadius: '6px'
+}} */

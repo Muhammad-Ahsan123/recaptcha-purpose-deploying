@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://new-look-syslab.vercel.app
+
+# Sitemaps
+Sitemap: https://new-look-syslab.vercel.app/sitemap.xml

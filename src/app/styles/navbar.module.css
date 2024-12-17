@@ -1,0 +1,22 @@
+.shadow {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  }
+  
+.un li {
+    position: relative
+}
+  
+.un li::after {
+    content: '';
+    position: absolute;
+    background-color: #0D6CC1;
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: 0px;
+    transition: all 0.6s ease;
+}
+  
+.un li:hover::after {
+    width: 100%
+}
