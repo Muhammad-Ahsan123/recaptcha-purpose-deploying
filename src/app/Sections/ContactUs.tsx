@@ -335,7 +335,7 @@ const ContactUs: React.FC = () => {
     const [captchaToken, setCaptchaToken] = useState('');
 
     // Create a ref for the reCAPTCHA component
-    const recaptchaRef = useRef<any>(null);
+    const recaptchaRef = useRef<ReCAPTCHA | null>(null); // Proper type for reCAPTCHA reference
 
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
