@@ -315,7 +315,9 @@ const ContactUs: React.FC = () => {
                                 className="custom-recaptcha-container"
                                 style={{
                                     maxWidth: '270px', // Restrict container width to 270px
-                                    margin: '0 auto', // Center it horizontally
+                                    margin: '0 auto',
+                                    position: 'relative',
+                                    left: '-5%'// Center it horizontally
                                 }}
                             >
                                 <ReCAPTCHA
