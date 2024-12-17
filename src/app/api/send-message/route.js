@@ -1,4 +1,4 @@
-// // src/app/api/send-message/route.js
+// src/app/api/send-message/route.js
 // import nodemailer from 'nodemailer';
 
 // export async function POST(req) {

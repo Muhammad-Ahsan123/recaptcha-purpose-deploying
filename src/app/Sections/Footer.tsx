@@ -6,12 +6,12 @@ import styles from '../styles/footer.module.css'
 
 function Footer() {
     return (
-        <footer className="p-1 min-h-fit relative py-10 bg-gray-700 text-[#efefef] sm:px-8 px-8">
+        <footer className="p-1 min-h-fit relative py-10 bg-gray-700 text-white sm:px-8 px-2">
             <div
                 className={`bg-gray-600 opacity-70 container mx-auto px-6 py-10 z-10 max-w-7xl text-center sm:text-start ${styles.footerwrapper}`}
             >
 
-                {/* Footer Content */}
+                {/* Footer Content */}  
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
                     {/* About Section */}
